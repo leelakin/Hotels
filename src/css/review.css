@@ -1,0 +1,34 @@
+.review {
+  display: flex;
+  align-items: center;
+  border-bottom: 3px solid #f0d97e;;
+  background: #fff0b4;
+}
+.review:last-child {
+  border-bottom: none;
+}
+.review .eval {
+  margin: 20px;
+  min-width: 30px;
+  height: 30px;
+  text-align: center;
+  font-weight: 600;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #9f7a7a;
+  color: #fff
+}
+.review .eval.plus {
+  background: #90a764;
+}
+.review .user {
+  padding: 40px 30px 40px 0;
+}
+.review .user .name{
+  margin-bottom: 10px;
+}
+.review .user .comment{
+  font-size: .8em;
+}
